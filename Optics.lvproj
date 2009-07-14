@@ -10,6 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Utils" Type="Folder" URL="../Utils">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Single Lens Matching" Type="Folder" URL="../Single Lens Matching">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="lens.ico" Type="Document" URL="../lens.ico"/>
 		<Item Name="Waist1Waist2Length-to-Focal.vi" Type="VI" URL="../Waist1Waist2Length-to-Focal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
