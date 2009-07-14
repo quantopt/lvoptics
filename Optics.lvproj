@@ -19,8 +19,16 @@
 		<Item Name="Two Lens Matching" Type="Folder" URL="../Two Lens Matching">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Transfer Matrices" Type="Folder" URL="../Transfer Matrices">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="lens.ico" Type="Document" URL="../lens.ico"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Windows" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{1C87B96A-4B45-440E-9AF8-8AF6A18533A9}</Property>
