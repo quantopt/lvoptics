@@ -16,8 +16,10 @@
 		<Item Name="Single Lens Matching" Type="Folder" URL="../Single Lens Matching">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Two Lens Matching" Type="Folder" URL="../Two Lens Matching">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="lens.ico" Type="Document" URL="../lens.ico"/>
-		<Item Name="Waist1Waist2Length-to-Focal.vi" Type="VI" URL="../Waist1Waist2Length-to-Focal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Windows" Type="EXE">
