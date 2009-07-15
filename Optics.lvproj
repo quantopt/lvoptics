@@ -16,18 +16,20 @@
 		<Item Name="Single Lens Matching" Type="Folder" URL="../Single Lens Matching">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Two Lens Matching" Type="Folder" URL="../Two Lens Matching">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="Transfer Matrices" Type="Folder" URL="../Transfer Matrices">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="lens.ico" Type="Document" URL="../lens.ico"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+		<Item Name="Evaluate System Propagation.vi" Type="VI" URL="../Evaluate System Propagation.vi"/>
+		<Item Name="Build Optical System.vi" Type="VI" URL="../Build Optical System.vi"/>
+		<Item Name="Optical Element.ctl" Type="VI" URL="../Optical Element.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../Program Files/National Instruments/LabVIEW 8.6/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Windows" Type="EXE">
