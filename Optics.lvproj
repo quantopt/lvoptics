@@ -24,6 +24,11 @@
 		<Item Name="Evaluate System Propagation.vi" Type="VI" URL="../Evaluate System Propagation.vi"/>
 		<Item Name="Build Optical System.vi" Type="VI" URL="../Build Optical System.vi"/>
 		<Item Name="Optical Element.ctl" Type="VI" URL="../Optical Element.ctl"/>
+		<Item Name="Element Parameters.ctl" Type="VI" URL="../Element Parameters.ctl"/>
+		<Item Name="States.ctl" Type="VI" URL="../States.ctl"/>
+		<Item Name="System Actions.ctl" Type="VI" URL="../System Actions.ctl"/>
+		<Item Name="Set Parameters.vi" Type="VI" URL="../Set Parameters.vi"/>
+		<Item Name="Optimize Two Lens.vi" Type="VI" URL="../Optimize Two Lens.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
